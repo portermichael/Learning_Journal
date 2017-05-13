@@ -1,0 +1,5 @@
+# LJ Code 301 - Day 5
+
+Today focused on working together as a class to create a "create blog" page. This is a single page application, but this functionality exists on an "admin" page, so on another HTML doc. It requires a page load, so I guess technically it isn't a single page app. To build a single page application we have to create the forms, populate a preview and convert the code to JSON
+
+These tasks took place in two functions attached to an object created to keep them out of the global scope. The first task was to initialize a new page. The second was to create the new page, which did most of the heavy lifting. The create page lived inside of the new page function. Our goal with creating the page was to create the forms, template the data inside the forms into a preview and converting that data to JSON. Our goal with initializing the page was to create the article, select all JSON if we selected that input box and to move the data we typed into the form into preview if we changed into anything else on the paeg.
