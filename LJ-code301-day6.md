@@ -1,4 +1,4 @@
-# LJ Code 301 - Day 5
+# LJ Code 301 - Day 6
 
 Today we learned about AJAX and JSON in lecture. AJAX is a means to send and receive data from a server/localhost. When we send data it is in a string, so we have to run JSON.stringify on our object. When we receive data we must parse it with JSON.parse to get an object back.
 
